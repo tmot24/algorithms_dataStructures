@@ -18,7 +18,7 @@ export const binary = (onlySortedArray: number[], target: number): number => {
 
     return -1
 }
-
+// O(log(n))
 console.log(binary([-5, 2, 4, 6, 10], 10))  // 4
 console.log(binary([-5, 2, 4, 6, 10], 6))  // 3
 console.log(binary([-5, 2, 4, 6, 10], 20))  // -1

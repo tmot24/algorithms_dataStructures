@@ -18,7 +18,7 @@ const search = (arr: number[], target: number, leftIndex: number, rightIndex: nu
 export const recursiveBinarySearch = (arr: number[], target: number) => {
     return search(arr, target, 0, arr.length - 1)
 }
-// logn
+// O(log(n))
 console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 10))  // 4
 console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 6))  // 3
 console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 20))  // -1

@@ -7,7 +7,7 @@ export const linear = (arr: unknown[], target: unknown): number => {
 
     return -1
 }
-
+// O(n)
 console.log(linear([-5, 2, 10, 4, 6], 10))
 console.log(linear([-5, 2, 10, 4, 6], 6))
 console.log(linear([-5, 2, 10, 4, 6], 20))
